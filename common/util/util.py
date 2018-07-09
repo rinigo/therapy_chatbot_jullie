@@ -3,7 +3,6 @@ import sys
 import json
 import requests
 import os
-import slackweb
 from requests_toolbelt import MultipartEncoder
 
 graph_url = 'https://graph.facebook.com/v2.6/me/messages'
@@ -132,19 +131,6 @@ def send_typing_off(sender_id):
             "sender_action": "typing_off"
         })
         requests.post(graph_url, params=params, headers=headers, data=data)
-    except Exception:
-        logging.exception('Error at: ' + str(__name__))
-
-
-def send_to_slack(message):
-    slack_master = slackweb.Slack(url="https://hooks.slack.com/services/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")
-    slack_master.notify(text=message)
-
-
-def send_to_slack_suicide_illness(message):
-    try:
-        channel = slackweb.Slack(url="https://hooks.slack.com/services/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")
-        channel.notify(text=message)
     except Exception:
         logging.exception('Error at: ' + str(__name__))
 

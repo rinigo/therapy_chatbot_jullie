@@ -43,7 +43,7 @@ class BotFactory:
             text = [i['text'] for i in message.message_dicts][0]
 
             if text in AdminCommand.admin_command_list.value:
-                if user.first_name in {'Yuya', 'Rintaro'}:
+                if user.first_name in {}:
                     return True
                 else:
                     return False

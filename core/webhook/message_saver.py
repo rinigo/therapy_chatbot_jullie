@@ -27,10 +27,8 @@ class MessageSaver:
     def __save_message_to_db(user_id, message, payload=''):
         try:
             first_name = models.User.find_first_name_by_id(user_id)
-            if first_name in {'Yuya', 'Rintaro'}:
-                created_at = datetime.utcnow() - timedelta(seconds=20)
-            else:
-                created_at = datetime.utcnow()
+
+            created_at = datetime.utcnow()
 
             print('saving messages',  message)
 

@@ -11,7 +11,6 @@ from sqlalchemy.orm import sessionmaker
 from common.constant import intro_position
 from common.constant.session_status import SessionStatus
 from common.constant.user_status import UserStatus
-from common.util.util import send_to_slack
 
 Base = declarative_base()
 
@@ -132,7 +131,6 @@ class User(Base):
 
     @classmethod
     def __get_unknown_profile_information(cls):
-        send_to_slack('Couldnt find profile information for the user with sender_id')
         return {'first_name': 'UNKNOWN_FIRST_NAME', 'last_name': None}
 
     @classmethod
