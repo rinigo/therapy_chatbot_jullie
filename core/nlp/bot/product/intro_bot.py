@@ -27,7 +27,6 @@ class IntroBot(BaseBot):
 
     def create_response(self):
         try:
-            # TODO make intro response generator factory different
             response_generator = IntroResponseGeneratorFactory.create(self.user, self.message)
             response_data = response_generator()
 

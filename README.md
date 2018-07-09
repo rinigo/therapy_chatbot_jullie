@@ -12,8 +12,8 @@ These codes are licensed under CC0.
 heroku buildpacks:add heroku/jvm -a  
 heroku config:set PAGE_ACCESS_TOKEN= -a  
 heroku config:set VERIFY_TOKEN= -a  
-heroku config:set client_access_token=d14b19a9c01346329804148260e27e9d -a  
-heroku config:set session_id=c58ed78c-0474-44d2-9ca0-43144fa30004 -a  
+heroku config:set client_access_token= -a  
+heroku config:set session_id= -a  
 
 # set database and queue
 heroku addons:create heroku-postgresql:hobby-dev -a  
@@ -33,12 +33,3 @@ heroku pg:psql -a
 
 **create tables with this command**  
 \i db/ddl.sql;    
-
-
-# Check the conversation log
-**execute following command on console**
-from admin.admin_conversation.py import AdminConversationNavigator
-navi = AdminConversationNavigator()
-navi.show_conversation()
-
-**Then follow the instruction on the console**

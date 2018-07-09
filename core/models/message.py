@@ -1,11 +1,5 @@
 import logging
-
 import models
-
-__author__ = 'Yuya Terada'
-__version__ = '0.1'
-__date__ = '12/Sep/2017'
-
 
 class Message:
     def __init__(self, message_dicts, user_id, is_nlp_skipped=False):
@@ -44,7 +38,6 @@ class Message:
 
     @original_df.setter
     def original_df(self, original_df):
-        # TODO setterでnullチェックなどを行う
         self.__original_df = original_df
 
     @property

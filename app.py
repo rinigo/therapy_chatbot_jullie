@@ -1,9 +1,8 @@
 import logging
 import os
-from flask import Flask, request, redirect
+from flask import Flask, request
 from core.webhook.message_saver import MessageSaver
 from common.util.util import log, mark_seen
-from save_access_data import add_access_data
 from pprint import pprint
 
 app = Flask(__name__)
@@ -28,7 +27,8 @@ def webhook():
     print("\n[JSON from webhook]")
     pprint(data)
 
-    # check if the message is document, sticker, audio or image. if document, then just mark it as seen and anymore response.
+    # check if the message is document, sticker, audio or image.
+    # if document, then just mark it as seen and anymore response.
     try:
         if 'attachments' in data['entry'][0]['messaging'][0]['message']:
             sender_id = data['entry'][0]['messaging'][0]['sender']['id']
@@ -73,19 +73,6 @@ def webhook():
 
     log('nothing in data', None, 'app.py')
     return "ok", 200
-
-
-@app.route('/promotion', methods=['GET'])
-def redirect_to_chatbot():
-    add_access_data(request.referrer)
-
-    return redirect(
-        'http://blooming-shore-23665.herokuapp.com/promotion/redirect')
-
-
-@app.route('/promotion/redirect', methods=['GET'])
-def redirect_to_promotion():
-    return redirect('http://m.me/JullieChatbot')
 
 
 if __name__ == '__main__':

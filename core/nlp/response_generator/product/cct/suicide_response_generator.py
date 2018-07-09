@@ -3,7 +3,6 @@ import models
 from common.constant.payloads import Payload
 from common.constant.string_constant import StringConstant
 from common.constant.user_status import UserStatus
-from common.util.util import send_to_slack_suicide_illness
 from core.nlp.response_generator.product.base.base_response_generator import BaseResponseGenerator
 
 
@@ -17,18 +16,9 @@ class SuicideResponseGenerator(BaseResponseGenerator):
         except:
             return self.response_data
 
-    def __notify_slack(self):
-        try:
-            if self.user.first_name not in ('Yuya', 'Rintaro'):
-                send_to_slack_suicide_illness('User said something related to suicide \nuser = ' + self.user.first_name)
-        except:
-            logging.exception('')
-
     def __give_help_info(self):
         try:
             self.user.update_status(UserStatus.SUICIDE_IN_SESSION.value)
-
-            self.__notify_slack()
 
             responses = StringConstant.suicide_responses.value
 
