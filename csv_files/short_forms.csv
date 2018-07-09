@@ -1,0 +1,164 @@
+short,normal
+-PRP-,example
+u,you
+ya,you
+-NOUN-,example
+bf,boyfriend
+gf,girlfriend
+mom,mother
+dad,father
+sis,sister
+bro,brother
+nope,no
+nop,no
+nopi,no
+nah,no
+yep,yes
+yup,yes
+yap,yes
+yah,yes
+-EXPRESSIONS-,example
+ty,thank you
+idk,i do not know
+kinda,kind of
+sorta,sort of
+gotcha,i got you
+whatevs,whatever
+thru,through
+wyd,what are you doing
+howdy,how do you do
+ttyl,talk to you later
+ik,i know
+gts,go to sleep
+hby,how about you
+k,ok
+yw,you are welcome
+tho,though
+a'ight,alright
+-NNA-,example
+gonna,going to
+wanna,want to
+gotta,have to
+-DO-,example
+doin,doing
+don’t,do not
+dont,do not
+-DOES-,example
+doesn't,does not
+doesnt,does not
+-DID-,example
+did'nt,did not
+didnt,did not
+-AM-,example
+amn't,am not
+amnt,am not
+i'm,i am
+im,i am
+-IS-,example
+isn't,is not
+isnt,is not
+he's,he is
+hes,he is
+she's,she is
+shes,she is
+it's,it is
+that's,that is
+thats,that is
+there's,there is
+theres,there is
+when's,when is
+where's,where is
+wheres,where is
+who's,who is
+what's,what is
+whats,what is
+which's,which is
+how's,how is
+hows,how is
+why's,why is
+-ARE-,example
+ain't,not
+ain,am not
+aren't,are not
+arent,are not
+you're,you are
+youre,you are
+they're,they are
+we're,we are
+-WERE-,example
+weren't,were not
+werent,were not
+-WAS-,example
+wasn't,was not
+wasnt,was not
+-CAN-,example
+cannot,can not
+can't,can not
+cant,can not
+-COULD-,example
+couldn't,could not
+couldnt,could not
+could've,could have
+-HAVE-,example
+haven't,have not
+havent,have not
+i've,i have
+ive,i have
+you've,you have
+youve,you have
+we've,we have
+weve,we have
+they've,they have
+theyve,they have
+what've,what have
+who've,who have
+-HAS-,example
+hasn't,has not
+hasnt,has not
+-HAD-,example(he'd is the part of would group)
+hadn't,had not
+hadnt,had not
+-WILL-,example
+won't,will not
+wont,will not
+i'll,i will
+ill, i will
+you'll,you will
+youll,you will
+we'll,we will
+he'll,he will
+she'll,she will
+they'll,they will
+theyll,they will
+it'll,it will
+itll,it will
+that'll,that will
+thatll,that will
+-WOULD-,example
+would'nt,would not
+wouldnt,would not
+would've,would have
+i'd,i would
+id,i would
+id,i would
+youd,you would
+you'd,you would
+we'd,we would
+he'd,he would
+hed,he would
+she'd,she would
+shed,she would
+they'd,they would
+it'd,it would
+itd,it would
+-SHOULD-,example
+shouldn't,should not
+shouldnt,should not
+should've,should have
+shouldve,should have
+-MUST-,example
+mustn't,must not
+mustnt,must not
+-SHALL-,example
+shan't,shall not
+shant,shall not

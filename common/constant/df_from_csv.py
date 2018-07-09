@@ -1,0 +1,26 @@
+import pandas as pd
+
+RES_PATH = './csv_files/'
+
+SP_I_DF = pd.read_csv(RES_PATH + 'special_i.csv')
+KWDF = pd.read_csv(RES_PATH + 'keywords.csv')
+NGDF = pd.read_csv(RES_PATH + 'negative.csv')
+SUICIDE_WORD_DF = pd.read_csv(RES_PATH + 'words_suicidal.csv')
+PRP = pd.read_csv(RES_PATH + 'prp.csv')
+PRP_CONVERT_DF = pd.read_csv(RES_PATH + 'prp.csv')
+SYDF = pd.read_csv(RES_PATH + 'synonyms.csv')
+CCDF = pd.read_csv(RES_PATH + 'conjunctions_to_convert.csv')
+LDF = pd.read_csv(RES_PATH + 'labeling.csv')
+NAME_JUDGE_LIST = pd.read_csv(RES_PATH + 'name_judge_list.csv')
+STOP_WORD_LIST = pd.read_csv(RES_PATH + 'stop_words.csv')
+STICKER_DF = pd.read_csv(RES_PATH + 'stickers.csv')
+SFDF = pd.read_csv(RES_PATH + 'short_forms.csv')
+WANNA_SHORT_FORM = pd.read_csv(RES_PATH + 'wanna_short_forms.csv')
+SP_O_DF = pd.read_csv(RES_PATH + 'special_o.csv')
+QRDF = pd.read_csv(RES_PATH + 'q_responses.csv')
+BAD_WORDS_DF = pd.read_csv(RES_PATH + 'bad_words.csv')
+LISTENING_DF = pd.read_csv(RES_PATH + 'listening.csv')
+UNIMPORTANT_WORDS_FOR_REPEAT = pd.read_csv(RES_PATH + 'unimportant_words.csv')
+WORD_LIST_FOR_CMP = pd.read_csv(RES_PATH + 'word_list_for_cmp.csv')
+WORDS_DESPITE_HIMSELF = pd.read_csv(RES_PATH + 'words_despise_himself.csv')
+SENTIMENTAL_NON_ADJ_WORDS = pd.read_csv(RES_PATH + 'sentimental_non_adj_words.csv')

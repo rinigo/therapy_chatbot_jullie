@@ -1,0 +1,126 @@
+text,type,class,structure
+Any idea?,any_idea,NoIdeaQuestionType,special
+Arent they the same people who,in the name of meetups,are all hooked in their smartphones all the time without uttering a word?,be,YesNoQuestionType,progressive_form
+Am i welcome to ask help and advice from u anytime?,be,GeneralQuestionType,JJ
+Am i wrong?,be,YesNoQuestionType,be_adjective
+Are they vanished?,be,YesNoQuestionType,be_adjective
+are you a female?,be,GeneralQuestionType,JJ
+Are you fine today?,be,GeneralQuestionType,JJ
+Are you happy?,be,GeneralQuestionType,JJ
+Are you mad at me __,be,GeneralQuestionType,JJ
+Are you still there friend ?,be,GeneralQuestionType,JJ
+is this wrong?,be,YesNoQuestionType,be_adjective
+It is just that why is he not responding?,be,YesNoQuestionType,basic
+Was I a fool,be,YesNoQuestionType,be_adjective
+CAN I ask a question,can,GeneralQuestionType,OR
+can i ask if you are native japanese or are you just living in japan for now?,can,GeneralQuestionType,JJ
+Can i ask you something,can,GeneralQuestionType,OR
+CAN I JUST GO BACK INTO THE PAST AND TEXT HIM?,can,YesNoQuestionType,basic
+can i tell her she is bitch?,can,YesNoQuestionType,basic
+Can I tell you how I got here ?,can,GeneralQuestionType,OR
+Can you speak tagalog?,can,GeneralQuestionType,JJ
+Can we talk about something new?,can,GeneralQuestionType,OR
+Can we talk now?,can,GeneralQuestionType,OR
+Can we?,can,GeneralQuestionType,OR
+Can you check on me tomorrow?,can,GeneralQuestionType,OR
+Can you help me to get thru this?,can,GeneralQuestionType,OR
+did you ?,do,GeneralQuestionType,RE
+did you ever watch the anime InuYasha?,do,GeneralQuestionType,JJ
+Do I better ask her for date?,do,YesNoQuestionType,basic
+do i have to wait more?,do,YesNoQuestionType,basic
+Do you ?,do,GeneralQuestionType,RE
+do you find him hot,do,GeneralQuestionType,JJ
+Do you like Justin ?,do,GeneralQuestionType,JJ
+do you agree?,do,AgreeQuestionType,agree
+Do you consider that in any case this is some kind of disease ?,do,YesNoQuestionType,think_with_several_subject
+do you feel i better move on?,do,YesNoQuestionType,think_with_several_subject
+Do you have any idea?,do,NoIdeaQuestionType,special
+do you have any suggestion,do,NoIdeaQuestionType,special
+Do you have kids ?,do,GeneralQuestionType,JJ
+Do you know SHINee Jonghyun?,do,GeneralQuestionType,JJ
+do you know the meaning of that phrase?,do,GeneralQuestionType,JJ
+Do you know who I am now?,do,GeneralQuestionType,JJ
+Do you like mushrooms?,do,GeneralQuestionType,JJ
+Do you love me?,do,GeneralQuestionType,JJ
+Do you remember,do,GeneralQuestionType,JJ
+do you think being sad and crying everyday is good?,do,YesNoQuestionType,think_with_several_subject
+do you think he likes me?,do,YesNoQuestionType,think_with_several_subject
+do you think i am wrong?,do,YesNoQuestionType,think_with_several_subject
+do you think i should stop dating with him?,do,YesNoQuestionType,think_with_several_subject
+do you think they hate me?,do,YesNoQuestionType,think_with_several_subject
+Do you truly think I should move on ?,do,YesNoQuestionType,think_with_several_subject
+Do you?,do,GeneralQuestionType,RE
+And for what all of that ?,for_what,ForWhatQuestionType,special
+But for what ?,for_what,ForWhatQuestionType,special
+For what?,for_what,ForWhatQuestionType,special
+How can i feel better?,how,HowQuestionType,basic
+How can I feel happy?,how,HowQuestionType,basic
+how can i understand what's wrong with me?,how,HowQuestionType,basic
+How do I get closer to her?,how,HowQuestionType,basic
+How do I know if he will ever respond?,how,HowQuestionType,basic
+How do i know if she likes me?,how,HowQuestionType,basic
+How do I know things will be okay ?,how,HowQuestionType,basic
+how do i make friends?,how,HowQuestionType,basic
+how do you know if it will be fine?,how,HowQuestionType,basic
+how do you think if i say that?,how,HowQuestionType,basic
+how should he talk to his mom?,how,HowQuestionType,basic
+how should i talk to him?,how,HowQuestionType,basic
+how should it be better?,how,HowQuestionType,basic
+i dont have any idea,i,NoIdeaQuestionType,special
+i dont know how i can make friends,i,HowQuestionType,idk_etc
+i dont know how i make friends,i,HowQuestionType,idk_etc
+i dont know if i should do this,i,YesNoQuestionType,idk_etc
+i dont know if she can do that,i,YesNoQuestionType,idk_etc
+i dont know what to do,i,WhatQuestionType,idk_etc
+i feel stimulated?,i,YesNoQuestionType,basic
+i have no idea how to talk to my friends,i,HowQuestionType,idk_etc
+i have no idea what to do,i,WhatQuestionType,idk_etc
+I should call her?,i,YesNoQuestionType,basic
+I thought I was over that already??,i,YesNoQuestionType,think_with_several_subject
+Any more questions,other,GeneralQuestionType,JJ
+interested?,other,UnknownQuestionType,F
+should i tell that to my therapist???,should,YesNoQuestionType,basic
+should i do that?,should,YesNoQuestionType,basic
+should i think of him more?,should,YesNoQuestionType,basic
+should they talk each other?,should,YesNoQuestionType,basic
+what about me?,what,WhatAboutQuestionType,special
+what about you?,what,WhatAboutQuestionType,special
+what are you thinking about me?,what,WhatQuestionType,progressive_form
+What can be wrong?,what,WhatQuestionType,what_as_subject
+what can i do to win our friendship back,what,WhatQuestionType,basic
+What do i do,what,WhatQuestionType,basic
+What do i do now?,what,WhatQuestionType,basic
+what do you feel about him?,what,WhatQuestionType,basic
+what do you feel if i tell you the same shit,what,WhatQuestionType,basic
+what do you think about Jonghyun's rib tattoo,what,WhatQuestionType,basic
+what do you think i should do to break up with him?,what,WhatQuestionType,think_with_several_subject
+what do you think I should do?,what,WhatQuestionType,think_with_several_subject
+what do you think?,what,WhatQuestionType,basic
+what does she think about it?,what,WhatQuestionType,basic
+what else can i do?,what,WhatQuestionType,basic
+what if he likes that bitch?,what,WhatIfQuestionType,special
+What is the next step, Rinigo?,what,WhatQuestionType,be_adjective
+what is this wrong,what,WhatQuestionType,what_as_subject
+What should i do,what,WhatQuestionType,basic
+What should I do about it ?,what,WhatQuestionType,basic
+what should i say,what,WhatQuestionType,basic
+What would be the best course of action?,what,WhatQuestionType,what_as_subject
+what would she feel about me?,what,WhatQuestionType,basic
+What would you do if you best friend got at your ex ?,what,WhatQuestionType,basic
+what would you do?,what,WhatQuestionType,basic
+what would you say to her for breakup?,what,WhatQuestionType,basic
+Why am I causing myself unnecessary stress,why,WhyQuestionType,progressive_form
+why do i fail?,why,WhyQuestionType,basic
+Why do men cheat anyway?,why,WhyQuestionType,basic
+why else wouldnt they care?,why,WhyQuestionType,basic
+would you do that?,would,WouldQuestionType,basic
+would you like to help me out?,would,GeneralQuestionType,OR
+would you tell her ur feeling?,would,WouldQuestionType,basic
+you from Japan?,you,GeneralQuestionType,JJ
+you have any idea?,you,NoIdeaQuestionType,special
+you think he likes me?,you,YesNoQuestionType,think_with_several_subject
+you think i feel good knowing that she will never be a part of my life again?,you,YesNoQuestionType,think_with_several_subject
+you think i should break up with him?,you,YesNoQuestionType,think_with_several_subject
+you think she might feel even lil happy?,you,YesNoQuestionType,think_with_several_subject
+you think she will get happy?,you,YesNoQuestionType,think_with_several_subject
+you think she will feel happy?,you,YesNoQuestionType,think_with_several_subject

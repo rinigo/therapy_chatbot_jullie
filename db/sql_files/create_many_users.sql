@@ -1,0 +1,10 @@
+INSERT INTO users (sender_id,first_name,status) VALUES ('950080108392806', 'John','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('5106586814683801', 'Joe','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('1930263561894169', 'Andy','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('3156817161164793', 'Andy','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('4241054088308910', 'Andy','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('9048386833490113', 'Joe','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('416131869073842', 'Andy','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('8533892933131687', 'Joe','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('5607751298325968', 'Andy','2');
+INSERT INTO users (sender_id,first_name,status) VALUES ('7658140227238676', 'John','2');

@@ -1,0 +1,32 @@
+id,qresp
+--NEGATIVE--,title
+ng,I see
+ng,Okay
+ng,Right
+ng,Hmm
+ng,Ok
+--NEUTRAL--,title
+nt,Okay..
+nt,Ohhh
+nt,I see..
+nt,Right..
+--POSITIVE--,title
+p,Great!
+p,That's great!
+p,Wonderful!
+p,Cool!
+p,Sweet!
+p,Good for you!
+p,That's amazing!
+p,Awesome!
+p,Okay!
+p,Uh-huh
+p,Lucky you!
+p,fine!
+p,Nice!
+p,Fantastic!
+p,smiling_face2
+p,beaming_face_with_smiling_eyes
+p,smiling_face_with_smiling_eyes
+p,face_blowing_a_kiss
+p,smiling_cat_face_with_heart_eyes2

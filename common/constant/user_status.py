@@ -1,0 +1,21 @@
+from enum import Enum
+
+
+class UserStatus(Enum):
+    # GET_STARTED = 0
+    # IN_INTRO = 1
+    # REGULAR_CONVERSATION = 2
+    # FIRST_REGULAR_MESSAGE = 5
+    # SUICIDE_IN_CONVERSATION = 6
+    # SUICIDE_ILLNESS = 7
+    # COMMENT_ASKED = 8
+    # MOOD_ASKED = 9
+    # IN_INTERVAL = 10
+    # ASK_MOOD_REMIND = 11
+    # ASK_SESSION_START_REMIND = 12
+
+    GET_STARTED = 0
+    INTRO = 1
+    SUICIDE_ILLNESS_INTRO = 7
+    REGULAR = 2
+    SUICIDE_IN_SESSION = 6

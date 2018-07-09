@@ -1,0 +1,9 @@
+
+.~c9*.py
+.idea/
+__pycache__/
+venv/
+environment.env
+.idea/workspace.xml
+test/clock.log
+.vscode/

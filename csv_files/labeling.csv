@@ -1,0 +1,80 @@
+id,labeling
+-HARD-,ex
+ng,It is hard..
+ng,It is so hard..
+ng,It seems hard..
+ng,It seems so hard..
+ng,It sounds hard..
+ng,It sounds so hard..
+ng,It looks hard..
+ng,It looks so hard..
+ng,It must be hard..
+ng,It must be so hard..
+-TOUGH-,ex
+ng,It is tough..
+ng,It is so tough..
+ng,It sounds tough..
+ng,It sounds so tough..
+ng,It looks tough..
+ng,It looks so tough..
+ng,It seems tough..
+ng,It seems so tough..
+ng,It must be tough..
+ng,It must be so tough..
+-GOOD-,ex
+p,Seems good now!
+p,You look good now:)
+-NICE-,ex
+p,seems you feel nice now:)
+-BETTER-,ex
+p,sounds you getting better now:)
+-FRUSTRATING-,ex
+ng,It is frustrating..
+ng,It sounds frustrating..
+ng,It looks frustrating..
+ng,It seems frustrating..
+ng,It must be frustrating..
+-STRESSFUL-,ex
+ng,It must be stressful..
+ng,It seems stressful..
+ng,It sounds stressful..
+ng,It should be strssful..
+ng,you should be stressed..
+-COMPLICATED-,ex
+ng,sounds complicated situation..
+ng,you might be in a complicated situation..
+ng,you must be in complicated situation..
+ng,you should be in complicated situation..
+-DIFFICULT-,ex
+ng,sounds difficult situation..
+ng,you might be in a hard situation..
+ng,should be difficult time for you..
+ng,might be difficult time for you..
+ng,you must be in difficult situation..
+-BAD-,ex
+ng,It's too bad..
+ng,It seems bad..
+-SAD-,ex
+ng,It's sad..
+ng,It's so sad..
+ng,It seems sad..
+ng,It seems so sad..
+ng,It sounds sad..
+ng,It sounds so sad..
+ng,It must be sad..
+ng,It must be so sad..
+-BOTHER-,ex
+ng,It must be bothersome..
+ng,It must be so bothersome..
+ng,It sounds bothersome..
+ng,It sounds so bothersome..
+-HORRIBLE-,ex
+ng,It sounds horrible..
+ng,It sounds so horrible..
+-HURT-,ex
+ng,You must be hurt..
+ng,You must be so hurt..
+nt,You feel that way now
+nt,Thats what you are feeling now
+nt,You feel like that
+nt,That is how you feel
