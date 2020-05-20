@@ -8,7 +8,7 @@ Flask==0.12.2
 google-api-python-client==1.6.4
 gunicorn==19.6.0
 html5lib==0.999
-httplib2==0.10.3
+httplib2==0.18.0
 inflect==0.2.5
 ipython==1.2.1
 itsdangerous==0.24
