@@ -7,7 +7,7 @@ decorator==3.4.0
 Flask==0.12.2
 google-api-python-client==1.6.4
 gunicorn==19.6.0
-html5lib==0.999
+html5lib==0.999999999
 httplib2==0.10.3
 inflect==0.2.5
 ipython==1.2.1
